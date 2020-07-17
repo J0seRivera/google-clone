@@ -1,0 +1,112 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-size: small;
+  font-family: Arial, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header{
+  width: 100%;
+  height: 47px;
+}
+
+header nav{
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav .nav-rigth-section{
+  width: 250px;
+  height: auto;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .nav-rigth-section a{
+  margin-right: 15px;
+  color: #000;
+
+}
+
+nav .nav-rigth-section .menu-icon {
+  background-image: url('https://static.thenounproject.com/png/756729-200.png');
+  background-repeat: no-repeat; /*para que la imagen no se repita*/
+  background-position: center; /*para que la imagen se posicione alo sentro*/
+  background-size: 25px; /*propiedad container para que se aproxime a el tamaño del contenedor*/
+  width: 40px;
+}
+
+nav .nav-rigth-section img {
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+main {
+  margin-top: 109px;
+  text-align: center;
+}
+
+main .main-logo {
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+main .main-logo img{
+  height: 91px;
+  width: 272px;
+}
+
+main .main-input {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+main .main-input-container {
+  width: 582px;
+  border-radius: 100px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .main-input input {
+  width: 487px;
+  height: 40px;
+  border: none;
+  outline: none; /*para quitarle el contorno al posicionar el cursor*/
+  padding-left: 13px;
+  padding-right: 8px;
+}
+
+main .main-input-container:hover {
+  box-shadow: 0 1px 6px #20212447;
+  border-color: #dfe1e500;
+}
+
+main .main-input .search-icon{
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 18px;
+  height: 18px;
+}
+
+main .main-input .micro-icon{
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
